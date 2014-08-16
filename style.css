@@ -9,7 +9,7 @@
 
 .W_main{width:830px;}
 .W_main_bg{position:relative;}
-.W_main_l{position:absolute;right:0;width:230px;}
+.W_main_l{position:absolute;right:0;top:160px!important;width:230px;}
 .W_main_l .S_txt1:hover{background:#d7ecf4!important;}
 .W_main_l .lev_curr{background:#d7ecf4!important;}
 }
@@ -19,5 +19,5 @@
 }
 
 @document regexp("https*://weibo\.com.*\\home"){
-.W_main_l{top:160px!important;}
+.W_main_l{}
 }
